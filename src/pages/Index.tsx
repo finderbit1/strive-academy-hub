@@ -6,7 +6,7 @@ import { StrivoFooter } from "@/components/StrivoFooter";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background">
       <StrivoHeader />
       <main>
         <StrivoHero />
