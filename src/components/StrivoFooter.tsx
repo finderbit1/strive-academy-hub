@@ -1,23 +1,24 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { OptimizedImage } from "@/components/ui/optimized-image";
 import { Instagram, Youtube, Linkedin, Mail, Phone, MapPin } from "lucide-react";
 
 export const StrivoFooter = () => {
   return (
-    <footer className="bg-secondary text-secondary-foreground">
+    <footer id="contato" className="bg-secondary text-secondary-foreground" role="contentinfo">
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-6">
-              <img 
+              <OptimizedImage 
                 src="/lovable-uploads/05d06d17-f1c1-49a8-a7d8-42335226df2e.png" 
-                alt="Strivo Logo" 
+                alt="Strivo Academy Logo" 
                 className="h-8 w-auto"
               />
             </div>
             <p className="text-secondary-foreground/80 mb-6 leading-relaxed">
-              A Strivo é sua plataforma completa de educação online. Transforme sua carreira com conhecimento de qualidade.
+              A Strivo é sua plataforma completa de cursos de programação. Transforme sua carreira tech com conhecimento de qualidade.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="hover:bg-primary hover:text-white">
@@ -65,22 +66,22 @@ export const StrivoFooter = () => {
             <ul className="space-y-4">
               <li>
                 <a href="#" className="text-secondary-foreground/80 hover:text-primary transition-colors">
-                  Programação
+                  Frontend Development
                 </a>
               </li>
               <li>
                 <a href="#" className="text-secondary-foreground/80 hover:text-primary transition-colors">
-                  Marketing Digital
+                  Backend Development
                 </a>
               </li>
               <li>
                 <a href="#" className="text-secondary-foreground/80 hover:text-primary transition-colors">
-                  Design & UX/UI
+                  Mobile Development
                 </a>
               </li>
               <li>
                 <a href="#" className="text-secondary-foreground/80 hover:text-primary transition-colors">
-                  Negócios
+                  Data Science & IA
                 </a>
               </li>
             </ul>

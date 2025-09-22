@@ -4,7 +4,7 @@ import { X, DollarSign, Zap, Shield } from "lucide-react";
 
 export const StrivoHero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-dark relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-dark relative overflow-hidden">
       {/* Background grid pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:64px_64px]"></div>
       
@@ -36,11 +36,11 @@ export const StrivoHero = () => {
                 <br />
                 <span className="bg-gradient-primary bg-clip-text text-transparent">20 assinaturas</span>
                 <br />
-                <span className="text-foreground/80">diferentes</span>
+                <span className="text-foreground/80">para <strong>aprender programação</strong></span>
               </h1>
               
               <p className="text-2xl text-muted-foreground mb-12 leading-relaxed max-w-4xl mx-auto animate-fade-in" style={{animationDelay: '0.4s'}}>
-                A <span className="text-primary font-bold">Strivo</span> resolve isso com <span className="text-foreground font-semibold">uma única assinatura</span> que cabe no seu bolso.
+                A <span className="text-primary font-bold">Strivo</span> resolve isso com <span className="text-foreground font-semibold">uma única assinatura</span> para dominar a programação.
               </p>
             </div>
             
@@ -48,10 +48,10 @@ export const StrivoHero = () => {
             <div className="animate-bounce-in" style={{animationDelay: '0.8s'}}>
               <div className="bg-gradient-card border border-primary/20 rounded-3xl p-12 mb-12 shadow-elegant">
                 <h2 className="text-4xl lg:text-6xl font-bold text-primary mb-6">
-                  Todos os melhores cursos
+                  Os melhores <strong>cursos de programação online</strong>
                 </h2>
                 <h3 className="text-3xl lg:text-5xl font-bold text-foreground mb-8">
-                  em uma única plataforma
+                  em uma única <strong>plataforma de ensino</strong>
                 </h3>
                 
                 <div className="grid md:grid-cols-3 gap-8 mb-12">
@@ -59,8 +59,8 @@ export const StrivoHero = () => {
                     <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Zap className="h-8 w-8 text-primary" />
                     </div>
-                    <h4 className="text-xl font-bold text-foreground mb-2">+500 Cursos</h4>
-                    <p className="text-muted-foreground">Todas as áreas de tecnologia</p>
+                    <h4 className="text-xl font-bold text-foreground mb-2">+520 Cursos</h4>
+                    <p className="text-muted-foreground">Todas as <strong>linguagens de programação</strong></p>
                   </div>
                   
                   <div className="text-center animate-fade-in" style={{animationDelay: '1.2s'}}>
@@ -81,15 +81,20 @@ export const StrivoHero = () => {
                 </div>
                 
                 <div className="animate-glow-pulse">
-                  <Button variant="hero" size="xl" className="text-xl px-12 py-6 mb-4">
+                  <Button variant="hero" size="xl" className="text-xl px-12 py-6 mb-8 w-full max-w-md mx-auto block">
                     🚀 Garantir Meu Acesso Agora
                   </Button>
-                  <p className="text-muted-foreground">
-                    <span className="line-through text-muted-foreground/60">De R$ 997</span> por apenas <span className="text-primary font-bold text-xl">R$ 497</span>
-                  </p>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    💳 Parcelamento em até 12x no cartão
-                  </p>
+                  <div className="text-center space-y-4">
+                    <p className="text-muted-foreground text-lg">
+                      <span className="line-through text-muted-foreground/60">De R$ 997</span> por apenas <span className="text-primary font-bold text-2xl">R$ 497</span>
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      💳 Parcelamento em até 12x no cartão
+                    </p>
+                    <p className="text-xs text-muted-foreground/80">
+                      🔒 Garantia de 7 dias ou seu dinheiro de volta
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

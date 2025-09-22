@@ -1,0 +1,22 @@
+{
+  "name": "Strivo Academy - Cursos de Programação",
+  "short_name": "Strivo Academy",
+  "description": "Transforme sua carreira tech com a Strivo Academy. Acesso vitalício a +520 cursos de programação.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1419",
+  "theme_color": "#FF6B35",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "business"],
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ],
+  "screenshots": []
+}

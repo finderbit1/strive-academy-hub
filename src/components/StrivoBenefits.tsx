@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { ScrollAnimation } from "@/components/ui/scroll-animation";
 import { Infinity, Clock, Trophy, Headphones, Download, Users2 } from "lucide-react";
 
 export const StrivoBenefits = () => {
@@ -45,7 +46,7 @@ export const StrivoBenefits = () => {
   return (
     <section id="beneficios" className="py-20 bg-gradient-card">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16 animate-fade-in">
+        <ScrollAnimation animation="fadeIn" className="text-center mb-16">
           <Badge variant="outline" className="mb-4">
             Por que escolher a Strivo?
           </Badge>
@@ -55,15 +56,19 @@ export const StrivoBenefits = () => {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Mais que uma plataforma de cursos, somos seu parceiro completo na jornada do conhecimento.
           </p>
-        </div>
+        </ScrollAnimation>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {benefits.map((benefit, index) => (
-            <Card 
-              key={index} 
-              className="group hover:shadow-primary transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg animate-scale-in bg-white/80 backdrop-blur-sm"
-              style={{animationDelay: `${index * 0.1}s`}}
+            <ScrollAnimation
+              key={index}
+              animation="scaleIn"
+              delay={index * 100}
+              className="h-full"
             >
+              <Card 
+                className="group hover:shadow-primary transition-all duration-300 hover:-translate-y-2 border border-primary/10 shadow-lg bg-gradient-card backdrop-blur-sm h-full"
+              >
               <CardHeader className="text-center pb-4">
                 <div className="mx-auto mb-4 p-4 rounded-full bg-gradient-primary w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <benefit.icon className="h-8 w-8 text-white" />
@@ -81,6 +86,7 @@ export const StrivoBenefits = () => {
                 </p>
               </CardContent>
             </Card>
+            </ScrollAnimation>
           ))}
         </div>
       </div>
