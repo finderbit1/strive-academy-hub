@@ -9,7 +9,7 @@ export const StrivoCourses = () => {
     {
       icon: Code2,
       title: "Frontend Development",
-      courses: 120,
+      //courses: 120,
       description: "React, Vue.js, Angular, TypeScript, HTML5, CSS3 e muito mais.",
       gradient: "from-blue-500 to-purple-600",
       popular: true,
@@ -18,7 +18,7 @@ export const StrivoCourses = () => {
     {
       icon: TrendingUp,
       title: "Backend Development",
-      courses: 100,
+      //courses: 100,
       description: "Node.js, Python, Java, PHP, C#, APIs e bancos de dados.",
       gradient: "from-green-500 to-teal-600",
       savings: "vs. R$ 1.500/mês em cursos separados"
@@ -26,7 +26,7 @@ export const StrivoCourses = () => {
     {
       icon: PaintBucket,
       title: "Mobile Development",
-      courses: 80,
+      //courses: 80,
       description: "React Native, Flutter, Swift, Kotlin e desenvolvimento nativo.",
       gradient: "from-pink-500 to-rose-600",
       savings: "vs. R$ 1.200/mês em outras plataformas"
@@ -34,7 +34,7 @@ export const StrivoCourses = () => {
     {
       icon: Briefcase,
       title: "Data Science & IA",
-      courses: 90,
+      //courses: 90,
       description: "Python, Machine Learning, Deep Learning, Análise de Dados.",
       gradient: "from-indigo-500 to-blue-600",
       savings: "vs. R$ 2.000/mês em cursos especializados"
@@ -42,7 +42,7 @@ export const StrivoCourses = () => {
     {
       icon: Camera,
       title: "DevOps & Cloud",
-      courses: 70,
+      //courses: 70,
       description: "AWS, Docker, Kubernetes, CI/CD, Linux e infraestrutura.",
       gradient: "from-orange-500 to-red-600",
       savings: "vs. R$ 1.600/mês em certificações"
@@ -50,7 +50,7 @@ export const StrivoCourses = () => {
     {
       icon: Music,
       title: "Game Development",
-      courses: 60,
+     // courses: 60,
       description: "Unity, Unreal Engine, C++, C# e desenvolvimento de jogos.",
       gradient: "from-purple-500 to-pink-600",
       savings: "vs. R$ 1.400/mês em workshops"
@@ -101,10 +101,11 @@ export const StrivoCourses = () => {
                 <CardTitle className="text-xl group-hover:text-primary transition-colors text-foreground">
                   {category.title}
                 </CardTitle>
-                <Badge variant="secondary" className="mx-auto w-fit mb-2">
+{ /* <Badge variant="secondary" className="mx-auto w-fit mb-2">
                   {category.courses}+ cursos
                 </Badge>
-                <p className="text-xs text-primary font-medium">
+*/}     
+<p className="text-xs text-primary font-medium">
                   {category.savings}
                 </p>
               </CardHeader>
@@ -114,10 +115,12 @@ export const StrivoCourses = () => {
                   {category.description}
                 </p>
                 <div className="space-y-4">
-                  <Button variant="ghost" className="w-full group-hover:bg-primary group-hover:text-white transition-all border border-primary/20 group-hover:border-primary py-3">
+
+ { /* <Button variant="ghost" className="w-full group-hover:bg-primary group-hover:text-white transition-all border border-primary/20 group-hover:border-primary py-3">
                     Explorar Cursos
                   </Button>
-                  <p className="text-xs text-primary/80 font-medium">
+ */ }
+<p className="text-xs text-primary/80 font-medium">
                     {category.savings}
                   </p>
                 </div>
@@ -146,8 +149,8 @@ export const StrivoCourses = () => {
                   <p className="text-muted-foreground">• Treehouse: R$ 199/mês</p>
                 </div>
                 <div className="mt-6 p-4 bg-destructive/10 rounded-lg">
-                  <p className="text-2xl font-bold text-destructive">R$ 695/mês</p>
-                  <p className="text-sm text-muted-foreground">R$ 8.340 por ano!</p>
+                  <p className="text-2xl font-bold text-destructive">R$ 815/mês</p>
+                  <p className="text-sm text-muted-foreground">R$ 9.780 por ano!</p>
                 </div>
                 </div>
               </ScrollAnimation>
