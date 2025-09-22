@@ -79,23 +79,6 @@ export const StrivoHero = () => {
                     <p className="text-muted-foreground">Menos que 2 meses de Netflix</p>
                   </div>
                 </div>
-                
-                <div className="animate-glow-pulse">
-                  <Button variant="hero" size="xl" className="text-xl px-12 py-6 mb-8 w-full max-w-md mx-auto block">
-                    🚀 Garantir Meu Acesso Agora
-                  </Button>
-                  <div className="text-center space-y-4">
-                    <p className="text-muted-foreground text-lg">
-                      <span className="line-through text-muted-foreground/60">De R$ 997</span> por apenas <span className="text-primary font-bold text-2xl">R$ 497</span>
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      💳 Parcelamento em até 12x no cartão
-                    </p>
-                    <p className="text-xs text-muted-foreground/80">
-                      🔒 Garantia de 7 dias ou seu dinheiro de volta
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
