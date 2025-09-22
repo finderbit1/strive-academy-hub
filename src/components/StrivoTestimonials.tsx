@@ -179,16 +179,29 @@ export const StrivoTestimonials = () => {
                 ⭐ 4.9/5 estrelas em todas as plataformas
               </Badge>
               <Badge variant="outline" className="text-lg px-6 py-3">
-                🏆 98% de satisfação garantida
+                98% de satisfação garantida
               </Badge>
             </div>
             
             <div className="space-y-6">
-              <Button variant="hero" size="xl" className="animate-glow-pulse text-xl px-12 py-6 w-full max-w-md mx-auto block">
-                🚀 Garantir Meu Acesso Agora
+
+            <Button 
+              variant="hero" 
+              size="xl"
+              className="animate-glow-pulse px-12 py-6"
+              aria-label="Ir para seção principal e começar agora"
+            >
+              Garantir Meu Acesso Agora
+            </Button>
+ 
+{ /*
+<Button 
+variant="hero" size="xl" className="animate-glow-pulse text-xl px-12 py-6 w-full max-w-md mx-auto block">
+              Garantir Meu Acesso Agora
               </Button>
-              <p className="text-sm text-muted-foreground/80">
-                🔒 Garantia de 7 dias ou seu dinheiro de volta
+*/}
+<p className="text-sm text-muted-foreground/80">
+                Garantia de 7 dias ou seu dinheiro de volta
               </p>
             </div>
           </div>

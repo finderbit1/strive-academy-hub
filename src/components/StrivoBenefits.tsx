@@ -17,31 +17,14 @@ export const StrivoBenefits = () => {
       description: "Aulas disponíveis 24/7. Pause, retome e assista quantas vezes quiser.",
       badge: "Flexível"
     },
-    {
-      icon: Trophy,
-      title: "Certificados Reconhecidos",
-      description: "Receba certificados de conclusão reconhecidos pelo mercado em cada curso finalizado.",
-      badge: "Certificação"
-    },
-    {
-      icon: Headphones,
-      title: "Suporte Especializado",
-      description: "Tire suas dúvidas com nossos mentores especializados em cada área de conhecimento.",
-      badge: "Suporte VIP"
-    },
+
     {
       icon: Download,
       title: "Conteúdo Offline",
       description: "Baixe as aulas e estude mesmo sem conexão com a internet.",
       badge: "Offline"
     },
-    {
-      icon: Users2,
-      title: "Comunidade Exclusiva",
-      description: "Conecte-se com outros alunos, troque experiências e faça networking.",
-      badge: "Networking"
-    }
-  ];
+ ];
 
   return (
     <section id="beneficios" className="py-20 bg-gradient-card">

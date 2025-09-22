@@ -137,7 +137,7 @@ export const StrivoCourses = () => {
             <div className="grid md:grid-cols-2 gap-12 mb-12">
               <ScrollAnimation animation="slideLeft" delay={200}>
                 <div className="text-center">
-                  <h4 className="text-2xl font-bold text-destructive mb-4">😤 Pagando Separado</h4>
+                    <h4 className="text-2xl font-bold text-destructive mb-4">☹️ Pagando Separado</h4>
                 <div className="space-y-2 text-left">
                   <p className="text-muted-foreground">• Udemy Pro: R$ 89/mês</p>
                   <p className="text-muted-foreground">• Pluralsight: R$ 149/mês</p>
