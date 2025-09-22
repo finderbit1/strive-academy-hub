@@ -40,9 +40,7 @@ const Index = () => {
           <StrivoHero />
           <StrivoBenefits />
           <StrivoCourses />
-          <StrivoTestimonials />
           <StrivoFAQ />
-          <StrivoNewsletter />
         </main>
         <StrivoFooter />
       </div>
