@@ -166,7 +166,7 @@ export const StrivoCourses = () => {
                   <p className="text-muted-foreground">• Acesso VITALÍCIO</p>
                 </div>
                 <div className="mt-6 p-4 bg-primary/10 rounded-lg">
-                  <p className="text-3xl font-bold text-primary">R$ 497</p>
+                  <p className="text-3xl font-bold text-primary">R$ 77</p>
                   <p className="text-sm text-muted-foreground">Pagamento único!</p>
                 </div>
                 </div>
@@ -176,14 +176,15 @@ export const StrivoCourses = () => {
             <ScrollAnimation animation="fadeIn" delay={600} className="text-center space-y-8">
               <div className="space-y-4">
                 <p className="text-2xl text-muted-foreground">
-                  Você <span className="text-primary font-bold text-3xl">economiza R$ 7.843</span> no primeiro ano!
+                  Você <span className="text-primary font-bold text-3xl">economiza R$ 9.703</span> no primeiro ano!
                 </p>
                 <p className="text-lg text-muted-foreground">
-                  💰 Economia garantida comparado às outras plataformas
+                 Economia garantida comparado às outras plataformas
                 </p>
               </div>
-              <Button variant="hero" size="xl" className="animate-glow-pulse text-xl px-12 py-6 w-full max-w-md mx-auto block">
-                🎯 Quero Economizar Agora
+              <Button variant="hero" size="xl" 
+              className="animate-glow-pulse text-xl px-12 py-6 w-full max-w-md mx-auto block">
+                Quero Economizar Agora
               </Button>
               <p className="text-sm text-muted-foreground/80">
                 ⚡ Acesso imediato após o pagamento
