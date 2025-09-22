@@ -59,7 +59,7 @@ export const StrivoHero = () => {
                     <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                       <Zap className="h-8 w-8 text-primary" />
                     </div>
-                    <h4 className="text-xl font-bold text-foreground mb-2">+520 Cursos</h4>
+                    <h4 className="text-xl font-bold text-foreground mb-2">+270 Horas de Cursos</h4>
                     <p className="text-muted-foreground">Todas as <strong>linguagens de programação</strong></p>
                   </div>
                   
